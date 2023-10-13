@@ -1,0 +1,38 @@
+.header {
+  background: #FF0000;
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+.content {
+  padding: 16px;
+  padding-top: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.leftSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+}
+
+.rightSticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.bottomSticky {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
