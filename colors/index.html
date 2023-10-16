@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <h1>Toolbar color test cases</h1>
 </head>
 <body>
     <div class="content" style="background-color:powderblue;">
-        <h1><a href="manifest_theme.html">Theme color in manifest</a></h1>
-        <h1><a href="theme.html">Theme color</a></h1>
-        <h1><a href="body.html">Body background color</a></h1>
-        <h1><a href="sticky_header.html">Sticky header background color</a></h1>
-        <h1><a href="header.html">Header background color</a></h1>
-        <h1><a href="double_sticky_header.html">Double sticky headers background color</a></h1>
+        <h1>Toolbar color hierarchy</h1>
+        <h1><a href="manifest_theme.html">1. Theme color in manifest</a></h1>
+        <h1><a href="theme.html">2. Theme color</a></h1>
+        <h1><a href="body.html">3. Body background color</a></h1>
+        <h1><a href="sticky_header.html">4. Sticky header background color</a></h1>
+    </div>
+    <div class="content" style="background-color:powderblue;">
+        <h1>Other cases</h1>
+        <h1><a href="header.html">Header background color</a> A non sticky header doesn't affect toolbar color.</h1>
+        <h1><a href="header_remove_sticky.html">Sticky header removed</a> Toolbar color doesn't change when a sticky header beomes non-sticky.</h1>
+        <h1><a href="double_sticky_header.html">Double sticky headers background color</a>When there are multiple sticky headers, none of them affect toolbar color.</h1>
     </div>
 </body>
 </html>

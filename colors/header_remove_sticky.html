@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header sticky" id="header">
         <h2>My Header</h2>
     </header> 
     <div class="content" style="background-color:powderblue;">
@@ -27,5 +27,11 @@
         Duis vitae aliquam massa, id scelerisque libero. In hac habitasse platea dictumst. Suspendisse scelerisque varius eleifend. Maecenas vel ante quam. Ut aliquam enim et gravida eleifend. Pellentesque sapien sapien, lobortis eget pellentesque at, suscipit in magna. Phasellus eu leo sagittis, lobortis ex eu, tempus mi. Sed commodo scelerisque facilisis. 
         </h2>
     </div>
+    <script>
+        window.onscroll = function() {removeSticky()};
+        function removeSticky() {
+            document.getElementById("header").className = "header";
+        }
+    </script> 
 </body>
 </html>
